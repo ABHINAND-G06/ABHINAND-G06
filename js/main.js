@@ -101,7 +101,7 @@ const sendMail = async (e) => {
    e.preventDefault()
    //serviceID-templateID-#form-publicKey
    try{
-      await emailjs.sendForm('service_dlshquw','template_cc1s47d','#contact-form','pLy0O-Vbidli7KdMp')
+      await emailjs.sendForm('service_oxx6plb','template_cc1s47d','#contact-form','pLy0O-Vbidli7KdMp')
 
       contactMessage.textContent = 'Message Sent Successfully ✅'
 
